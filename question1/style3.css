@@ -1,0 +1,23 @@
+.questioncreate input{
+    width:25%;
+}
+.questioncreate input,textarea{
+    display:block;
+    outline: none;
+    border: 1px solid #dda97e;
+    text-align: center;
+    background-color: #f0fcf9;
+    border-radius: 3%;
+}
+.questioncreate input:focus,textarea:focus{
+    box-shadow: 0 0 4px #009879;
+    border: 1px solid #ddd;
+    border-radius: 3%;
+}
+#time{
+    width:15%;
+}
+#submit{
+    width:10%;
+    cursor: pointer;
+}
